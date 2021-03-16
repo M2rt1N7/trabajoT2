@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--
+HTML
+web o pagina:
+autor: Federico Martin Muñoz
+fecha: Marzo 2021
+-->
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="shortcut icon" type="image/jpg" href="imagenes/logo.ico" />
+
+	<!-- importante SEO para la etiqueta del navegador -->
+	<title>Titulo en Etiqueta del Navegador</title>
+
+	<!-- una fuente de Google -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+	<!-- una hoja de estilos externa-->
+	<link href="trabajo.css" rel="stylesheet" />
+
+	<!-- una hoja de estilos personalizada-->
+	<link href="00-modelo.cs" rel="stylesheet" />
+
+	<!-- iconos u otros elementos externos -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- scripts externos de librerias que usaremos, por ejemplo Bootstrap o JQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="clicks.js"> </script>
+
+	<!-- scripts externos de desarrollo propio en Javascript o JQuery -->
+	<script src="00-modelo.js"></script>
+
+</head>
+
+<body>
+	<div class="marco">
+		<div class="encabezado">
+			<div class="menu">
+				<nav>
+					<ul>
+						<li onclick="onClick()"><a href="#">Inicio</a></li>
+						<li><a href="actualidad.html">Actualidad</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Tendencias</a></li>
+						<li><a href="#">Contactar</a></li>
+						<span id="contador" style="text-align:right; padding-left: 1%;color: #46D2FF;"> </span>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="migas">
+			<ul class="migajasDePan">
+				<li><a href="#">Inicio</a></li>
+			</ul>
+		</div>
+		<div class="lado">
+			<div class="menu-vertical">
+				<nav>
+					<ul>
+						<li onclick="onClick()"><a href="#">Inicio</a></li>
+						<li><a href="actualidad.html">Actualidad</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Tendencias</a></li>
+						<li><a href="#">Contactar</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<div class="contenido">
+				<div class="bloque1">
+					<div style="width:50%;" class="infoPersonal">
+					<h2>Información personal:</h2>
+					<br>
+					<p>Federico Martin Muñoz 1ºDAM</p>
+				</div>
+					<div style="width:50%;">
+				<img class="imagenCenec" src="imagenes/cenec.jpg">
+			</div>
+		</div>
+		<div class="bloque2">
+			<div style="width:50%;" class="infoCentro">
+				<h2>Información del centro: </h2>
+				<br>
+				<p>Más de 24.000 alumnos formados en los últimos 32 años, dan una idea de la calidad y el compromiso de nuestro equipo.
+					La experiencia, el conocimiento, la pasión por la tecnología, la proactividad y el prestigio, nos han convertido en el partner
+					imprescindible de la industria para buscar y contratar los mejores profesionales.
+					Contamos con líderes tecnológicos, apoyando nuestra labor de formación en el mundo digital a través de alianzas estratégicas, mecenazgo y colaboración.</p>
+				</div>
+				<div style="width:50%;"class="elegirDamDaw">
+					<h2>¿Por qué elegí estudiar DAM/DAW?</h2>
+					<br>
+					<p>Considero este sector muy interesante y atractivo, el cual se encuentra en auge y es el presente y el futuro para el devenir de las tecnologías
+						que se implementan e implementarán en practicamente todos los campos y ámbitos de la vida para mejorar la calidad de vida de la sociedad, por otro
+					  lado me permitirá adquirir ciertos conocimientos para formarme y desarrollar una estupenda carrera profesional y por ende obtener cierta calidad
+						de vida que me permita disponer del tiempo suficiente para emplearlo en disfrute y desarrollo personal en otros campos o actividades.</p>
+				</div>
+			</div>
+		</div>
+		<div class="pie">
+			Contacto : FedericoMartinMuñoz@ProyectoIntegrador2T.1DAM 2021
+		</div>
+	</div>
+</body>
+
+</html>
