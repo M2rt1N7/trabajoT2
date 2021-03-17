@@ -45,6 +45,10 @@
   text-align: justify;
 }
 
+p{
+  text-align: justify;
+}
+
 .pie {
   border-style: solid;
   border-color:  #000000;
@@ -156,6 +160,7 @@ nav a{
   color: black;
   font-family: monospace;
   font-size: 20px;
+  text-align: justify;
 }
 
 .virus2{
@@ -163,29 +168,29 @@ nav a{
   height: auto;
   color: black;
   margin-top: 5%;
-  text-align: left;
   font-family: monospace;
   font-size: 20px;
+  text-align: justify;
 }
 .virus3{
   width: 65%;
   height: auto;
   margin-top: 5%;
   color: black;
-  text-align: left;
   font-family: monospace;
   font-size: 20px;
+  text-align: justify;
 }
 .virus4{
   width: 65%;
   height: auto;
   color: black;
-    margin-top: 5%;
-  text-align: left;
+  margin-top: 5%;
   margin-bottom: 5%;
   margin-left: 5%;
   font-family: monospace;
   font-size: 20px;
+  text-align: justify;
 }
 .menu-vertical {
   width: 100%;
